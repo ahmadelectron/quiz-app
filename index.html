@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Settings Screen -->
+        <section id="settings-screen">
+            <h1>Quiz App</h1>
+
+            <label>Number of questions:</label>
+            <select id="amount">
+                <option value="5">5</option>
+                <option value="10">10</option>
+            </select>
+
+            <label>Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+            <label>Categories:</label>
+            <select id="category-select">
+                <option>Loading Categories...</option>
+            </select>
+
+            <button id="start-btn">Start Quiz</button>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="hidden">
+            <div id="status-bar">
+                <span id="progress"></span>
+                <span id="score"></span>
+                <span id="timer">Time: 15s</span>
+            </div>
+
+            <h2 id="question-text"></h2>
+            <div id="options-container"></div>
+
+            <button id="next-btn" disabled>Next Question</button>
+        </section>
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="hidden">
+            <h2>Quiz Finished!</h2>
+
+            <p id="final-score"></p>
+
+            <div id="review-container"></div>
+            <ul id="review"></ul>
+
+            <button id="restart-btn">Start Again</button>
+        </section>
+    </div>
+</body>
+
+</html>
