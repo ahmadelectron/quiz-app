@@ -9,6 +9,8 @@ A dynamic web application fetching real-time questions from the Open Trivia Data
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+  - (Custom UI & Animations)
+  - (Fetch API, Async/Await)
 - **Data Source:** [Open Trivia API](https://opentdb.com)
 
 ## 🔧 Setup
