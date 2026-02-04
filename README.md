@@ -17,3 +17,6 @@ A dynamic web application fetching real-time questions from the Open Trivia Data
 1. Clone: `git clone https://github.com`
 2. Open `index.html` in your browser.
 *(Note: Requires VPN in restricted regions to access the API).*
+
+## License
+This project is open-source and available under the MIT License.
